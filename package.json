@@ -1,0 +1,21 @@
+{
+  "name": "alfrescoreleaseapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Alfresco Release Restful API",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "David Cano",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
